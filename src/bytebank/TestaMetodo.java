@@ -8,9 +8,12 @@ public class TestaMetodo {
 		System.out.println("Saldo Paulo" + conta.saldo);
 
 		boolean conseguiuRetirar = conta.sacar(50);
-		System.out.println("Novo saldo Paulo" + conta.saldo);
+		System.out.println("Testando alteração no git" + conta.saldo);
 		System.out.println("Consegui Retirar = " + conseguiuRetirar);
 
+
+		
+		
 		Conta conta2 = new Conta();
 		conta2.deposita(1000);
 
@@ -25,4 +28,5 @@ public class TestaMetodo {
         conta.titular = "Paulo";
         System.out.println(conta.titular);
 	}
+	
 }
